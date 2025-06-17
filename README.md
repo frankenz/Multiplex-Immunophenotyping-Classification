@@ -24,6 +24,9 @@ Classification performance of DNN for single cell multiplex immunophenotyping wi
 
 ![image](https://github.com/user-attachments/assets/6fe3fc58-4fd3-4079-a7f0-0f7c1a489dcb)
 
+The constructed point-cloud saliency maps of the validated NHB and NHW DNN were analyzed to characterize the distribution of the critical single cell phenotypes. Left: Probability ratio of presence of a single critical phenotype in NHB vs. NHW breast tumors as detected from the saliency maps. Right: Saliency maps analysis for the probability ratio of co-presence of two different critical phenotypes in NHB vs. NHW breast tumors. 
+
+
 
 
 
