@@ -22,7 +22,7 @@ Breast cancer is the most commonly diagnosed cancer. Breast cancer is the leadin
 
 Classification performance of DNN for single cell multiplex immunophenotyping with point clouds retrieved from 555 NHB and NHW breast tumors. A. Performance of validation accuracy for different tile sizes. B. Performance of validation for the selected tile size. C. Training and validation progress curves for every 300 epochs.
 
-
+![image](https://github.com/user-attachments/assets/6fe3fc58-4fd3-4079-a7f0-0f7c1a489dcb)
 
 
 
