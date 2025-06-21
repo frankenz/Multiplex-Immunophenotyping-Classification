@@ -5,10 +5,6 @@ Top: Representative mQIF of the tumor microenvironment of a breast cancer TMA co
 <img width="672" alt="image" src="https://github.com/user-attachments/assets/4a06a653-7895-4e25-a087-1ff15a9edb54" />
 
 
-References:
-1.	Charles R. Qi, H. S., Kaichun Mo, Leonidas J. Guibas. PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 652-660 (2017).
-2.	Tianhang Zheng, C. C., Junsong Yuan, Bo Li, Kui Ren. PointCloud Saliency Maps. Proceedings of the IEEE/CVF International Conference on Computer Vision, 1598-1606 (2019).
-
 
 Abstract
 
@@ -33,4 +29,6 @@ Here, point clouds data structure consisted of a set of points in an artificial 
 We build a point-cloud saliency maps through the DNN models. Here we approximate point dropping by point-shifting operation (procedure of shifting points to the spherical core of the point cloud). Through this way, the nondifferentiable functional loss change caused by point-dropping. All the original external points were not droped and point cloud determine the recognition result. Consequently, dropping a point has the effects of eliminating the impact of the point on the classification result. We determine the contribution of a point by the gradient of loss under the point-dropping operation. Saliency maps are readily constructed by calculating gradients, which guide the point-dropping iterative processes as follows: compute the gradient, compute the spherical core, compute distance to the spherical core, construct the saliency score map, dropping points. Points drop is iteratively, such that point dependencies in the remaining point set will be considered when calculating saliency scores for the next iteration. Specifically, in each iteration, a new saliency map is constructed for the remaining points, and points are dropped based on the current saliency map.  
 
 
-
+References:
+1.	Charles R. Qi, H. S., Kaichun Mo, Leonidas J. Guibas. PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 652-660 (2017).
+2.	Tianhang Zheng, C. C., Junsong Yuan, Bo Li, Kui Ren. PointCloud Saliency Maps. Proceedings of the IEEE/CVF International Conference on Computer Vision, 1598-1606 (2019).
